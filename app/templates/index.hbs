@@ -4,9 +4,11 @@
 
 <ul>
   {{#each model as |life|}}
-    <li>{{life.type}} {{life.age}}</li>
+    {{life-tile life=life destroyLife="destroyLife"}}
   {{/each}}
 </ul>
+
+{{new-life saveLife="saveLife"}}
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us {{/link-to}}

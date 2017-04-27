@@ -1,0 +1,9 @@
+<li>
+Type: {{life.type}} Age: {{life.age}}
+{{#if isImageShowing}}
+  <p><img src={{life.image}} alt={{life.type}} {{action 'imageHide'}}></p>
+  {{else}}
+  <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}}
+  <button {{action 'delete' life}}>DELETE  LIFE no reset button!!!!</button>
+</li>
