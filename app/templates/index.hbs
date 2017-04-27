@@ -1,0 +1,11 @@
+<h1>SEA LIFE PAGE</h1>
+
+<p>A page dedicated to all things sea-life</p>
+
+<ul>
+  {{#each model as |life|}}
+    <li>{{life.type}} {{life.age}}</li>
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

@@ -1,0 +1,10 @@
+{ "lifes": [{
+  "type": "Walrus",
+  "age": "12",
+  "image": "http://www.walrus-world.com/wp-content/uploads/anatomy_walrus.jpg"
+  } , {
+  "type": "Walrus",
+  "age": "14",
+  "image": "http://www.walrus-world.com/wp-content/uploads/feeding_walrus.jpg"
+    }]
+}
